@@ -1,0 +1,122 @@
+site_name: Analytics Wiki
+site_description: Конспекты и материалы по аналитике данных
+site_author: Евгений Каламагин
+
+theme:
+  name: material
+  language: ru
+
+nav:
+  - Главная: index.md
+
+  - Sprint 1 — Аналитика и Google Таблицы:
+      - Обзор: sprint-01-analytics-google-sheets/index.md
+      - Введение в спринт: sprint-01-analytics-google-sheets/01-introduction.md
+      - Использование данных в бизнесе: sprint-01-analytics-google-sheets/02-data-in-business.md
+      - Процесс анализа данных и задачи аналитика: sprint-01-analytics-google-sheets/03-data-analysis-process.md
+      - Google Таблицы: sprint-01-analytics-google-sheets/04-google-sheets-basics.md
+      - Предобработка данных: sprint-01-analytics-google-sheets/05-data-preprocessing.md
+      - Формулы и функции: sprint-01-analytics-google-sheets/06-formulas-and-functions.md
+      - Презентация данных: sprint-01-analytics-google-sheets/07-data-presentation.md
+
+  - Sprint 2 — Основы SQL:
+      - Обзор: sprint-02-sql-extraction/index.md
+      - Работа с базами данных: sprint-02-sql-extraction/01-databases.md
+      - Типы данных и преобразования: sprint-02-sql-extraction/02-data-types-transformations.md
+      - Фильтрация и агрегация: sprint-02-sql-extraction/03-filtering-aggregation.md
+      - Группировка и сортировка: sprint-02-sql-extraction/04-grouping-sorting.md
+      - Категоризация значений: sprint-02-sql-extraction/05-categorization.md
+
+  - Sprint 3 — SQL. Обработка данных:
+      - Обзор: sprint-03-sql-processing/index.md
+      - Введение в спринт: sprint-03-sql-processing/01-introduction.md
+      - Связи между таблицами: sprint-03-sql-processing/02-table-relationships.md
+      - Пропуски и дубликаты: sprint-03-sql-processing/03-missing-values-duplicates.md
+      - Присоединение таблиц: sprint-03-sql-processing/04-joins.md
+      - Операции множеств и подзапросы: sprint-03-sql-processing/05-set-operations-subqueries.md
+      - Дата и время: sprint-03-sql-processing/06-date-and-time.md
+
+  - Sprint 4 — SQL. Анализ и ad hoc:
+      - Обзор: sprint-04-sql-adhoc/index.md
+      - Введение: sprint-04-sql-adhoc/01-introduction.md
+      - Знакомство с базой данных: sprint-04-sql-adhoc/02-database.md
+      - Оконные и агрегирующие функции: sprint-04-sql-adhoc/03-window-aggregate-functions.md
+      - Ранжирующие функции: sprint-04-sql-adhoc/04-ranking-window-functions.md
+      - Функции смещения: sprint-04-sql-adhoc/05-offset-window-functions.md
+      - Описательная статистика: sprint-04-sql-adhoc/06-descriptive-statistics.md
+      - Ad hoc задачи: sprint-04-sql-adhoc/07-adhoc-practice.md
+
+  - Sprint 5 — DataLens:
+      - Обзор: sprint-05-datalens/index.md
+      - Введение: sprint-05-datalens/01-introduction.md
+      - Основы DataLens: sprint-05-datalens/02-datalens-basics.md
+      - Чарты: sprint-05-datalens/03-charts.md
+      - Вычисляемые поля: sprint-05-datalens/04-calculated-fields.md
+      - Дашборды: sprint-05-datalens/05-dashboards.md
+      - Параметры: sprint-05-datalens/06-parameters.md
+      - Интерпретация дашбордов: sprint-05-datalens/07-dashboard-interpretation.md
+
+  - Sprint 6 — Основы Python:
+      - Обзор: sprint-06-python-basics/index.md
+      - Введение: sprint-06-python-basics/01-introduction.md
+      - Синтаксис Python: sprint-06-python-basics/02-python-syntax.md
+      - Типы данных: sprint-06-python-basics/03-data-types.md
+      - Условные выражения: sprint-06-python-basics/04-conditional-expressions.md
+      - Циклы: sprint-06-python-basics/05-loops.md
+      - Функции: sprint-06-python-basics/06-functions.md
+      - Словари и множества: sprint-06-python-basics/07-dictionaries-and-sets.md
+
+  - Sprint 7 — Python. Предобработка:
+      - Обзор: sprint-07-python-preprocessing/index.md
+      - Введение: sprint-07-python-preprocessing/01-introduction.md
+      - Pandas: sprint-07-python-preprocessing/02-pandas-overview.md
+      - Типы данных: sprint-07-python-preprocessing/03-data-types.md
+      - Индексация и фильтрация: sprint-07-python-preprocessing/04-indexing-filtering.md
+      - Пропущенные значения: sprint-07-python-preprocessing/05-missing-values.md
+      - Категоризация данных: sprint-07-python-preprocessing/06-data-categorization.md
+
+  - Sprint 8 — Исследовательский анализ данных:
+      - Обзор: sprint-08-python-eda/index.md
+      - Введение: sprint-08-python-eda/01-introduction.md
+      - Объединение датафреймов: sprint-08-python-eda/02-dataframe-merging.md
+      - Описательная статистика: sprint-08-python-eda/03-descriptive-statistics.md
+      - Взаимосвязь переменных: sprint-08-python-eda/04-variable-relationships.md
+      - Визуализация: sprint-08-python-eda/05-data-visualization.md
+      - Сводные таблицы: sprint-08-python-eda/06-pivot-tables.md
+      - Пример EDA: sprint-08-python-eda/07-eda-example.md
+
+  - Sprint 9 — Бизнес-метрики:
+      - Обзор: sprint-09-business-metrics/index.md
+      - Введение: sprint-09-business-metrics/01-introduction.md
+      - Бизнес-метрики: sprint-09-business-metrics/02-business-metrics.md
+      - Продуктовые метрики: sprint-09-business-metrics/03-product-metrics.md
+      - Продуктовая воронка: sprint-09-business-metrics/04-product-funnel.md
+      - Когортные метрики: sprint-09-business-metrics/05-cohort-metrics.md
+      - Ключевые и кастомные метрики: sprint-09-business-metrics/06-key-and-custom-metrics.md
+
+  - Sprint 10 — Статистика:
+      - Обзор: sprint-10-statistics/index.md
+      - Введение: sprint-10-statistics/01-introduction.md
+      - Теория вероятностей: sprint-10-statistics/02-probability-theory.md
+      - Случайные величины: sprint-10-statistics/03-random-variables.md
+      - Распределения: sprint-10-statistics/04-distributions.md
+      - Основы статистики: sprint-10-statistics/05-statistics-basics.md
+      - Проверка гипотез: sprint-10-statistics/06-hypothesis-testing.md
+
+  - Sprint 11 — A/B-тестирование:
+      - Обзор: sprint-11-ab-testing/index.md
+      - Введение: sprint-11-ab-testing/01-introduction.md
+      - A/B-тесты: sprint-11-ab-testing/02-ab-testing.md
+      - Выбор метрик: sprint-11-ab-testing/03-metric-selection.md
+      - Размер выборки и валидация: sprint-11-ab-testing/04-sample-size-validation.md
+      - Статистические тесты: sprint-11-ab-testing/05-statistical-tests.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+
+extra:
+  generator: false
